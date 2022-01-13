@@ -1,0 +1,29 @@
+{
+  "name": "hyper-gateway-latency-benchmarks",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Testing latency in different levels of the hyper-gateway to find performance bottlenecks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/hyper-gateway-latency-benchmarks.git"
+  },
+  "author": "rangermauve <ranger@mauve.moe> (https://mauve.moe/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/hyper-gateway-latency-benchmarks/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/hyper-gateway-latency-benchmarks#readme",
+  "dependencies": {
+    "@rangermauve/fetch-event-source": "^1.0.0",
+    "delay": "^5.0.0",
+    "get-port": "^5.1.1",
+    "hyper-gateway": "^2.1.2",
+    "node-fetch": "^3.1.0",
+    "promise-defer": "^1.0.0"
+  }
+}
